@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0DD927223580C6500D66447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD927123580C6500D66447 /* AppDelegate.swift */; };
+		D0DD927423580C6500D66447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD927323580C6500D66447 /* ViewController.swift */; };
+		D0DD927723580C6500D66447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DD927523580C6500D66447 /* Main.storyboard */; };
+		D0DD927A23580C6500D66447 /* StikLightAlgo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0DD927823580C6500D66447 /* StikLightAlgo.xcdatamodeld */; };
+		D0DD927C23580C6800D66447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DD927B23580C6800D66447 /* Assets.xcassets */; };
+		D0DD927F23580C6800D66447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DD927D23580C6800D66447 /* LaunchScreen.storyboard */; };
+		D0DD928A23580C6900D66447 /* StikLightAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD928923580C6900D66447 /* StikLightAlgoTests.swift */; };
+		D0DD929523580CB000D66447 /* ColorCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD929423580CB000D66447 /* ColorCube.swift */; };
+		D0DD929723580CF700D66447 /* ip7P LED_1.IMG_4207.cube in Resources */ = {isa = PBXBuildFile; fileRef = D0DD929623580CF700D66447 /* ip7P LED_1.IMG_4207.cube */; };
+		D0DD929923580EF900D66447 /* test_lut.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0DD929823580EF900D66447 /* test_lut.txt */; };
+		D0DD929A23580EF900D66447 /* test_lut.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0DD929823580EF900D66447 /* test_lut.txt */; };
+		D0DD929F235816FC00D66447 /* IMG_4302.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0DD929E235816FC00D66447 /* IMG_4302.jpg */; };
+		D0DD92A0235816FC00D66447 /* IMG_4302.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0DD929E235816FC00D66447 /* IMG_4302.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DD928623580C6800D66447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DD926623580C6500D66447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DD926D23580C6500D66447;
+			remoteInfo = StikLightAlgo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0DD926E23580C6500D66447 /* StikLightAlgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StikLightAlgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DD927123580C6500D66447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0DD927323580C6500D66447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0DD927623580C6500D66447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0DD927923580C6500D66447 /* StikLightAlgo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StikLightAlgo.xcdatamodel; sourceTree = "<group>"; };
+		D0DD927B23580C6800D66447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DD927E23580C6800D66447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0DD928023580C6800D66447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DD928523580C6800D66447 /* StikLightAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StikLightAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DD928923580C6900D66447 /* StikLightAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StikLightAlgoTests.swift; sourceTree = "<group>"; };
+		D0DD928B23580C6900D66447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DD929423580CB000D66447 /* ColorCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCube.swift; sourceTree = "<group>"; };
+		D0DD929623580CF700D66447 /* ip7P LED_1.IMG_4207.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ip7P LED_1.IMG_4207.cube"; sourceTree = "<group>"; };
+		D0DD929823580EF900D66447 /* test_lut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_lut.txt; sourceTree = "<group>"; };
+		D0DD929E235816FC00D66447 /* IMG_4302.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4302.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DD926B23580C6500D66447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DD928223580C6800D66447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DD926523580C6500D66447 = {
+			isa = PBXGroup;
+			children = (
+				D0DD927023580C6500D66447 /* StikLightAlgo */,
+				D0DD928823580C6800D66447 /* StikLightAlgoTests */,
+				D0DD926F23580C6500D66447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DD926F23580C6500D66447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD926E23580C6500D66447 /* StikLightAlgo.app */,
+				D0DD928523580C6800D66447 /* StikLightAlgoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DD927023580C6500D66447 /* StikLightAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD929423580CB000D66447 /* ColorCube.swift */,
+				D0DD927123580C6500D66447 /* AppDelegate.swift */,
+				D0DD927323580C6500D66447 /* ViewController.swift */,
+				D0DD927523580C6500D66447 /* Main.storyboard */,
+				D0DD927B23580C6800D66447 /* Assets.xcassets */,
+				D0DD927D23580C6800D66447 /* LaunchScreen.storyboard */,
+				D0DD928023580C6800D66447 /* Info.plist */,
+				D0DD927823580C6500D66447 /* StikLightAlgo.xcdatamodeld */,
+			);
+			path = StikLightAlgo;
+			sourceTree = "<group>";
+		};
+		D0DD928823580C6800D66447 /* StikLightAlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD929E235816FC00D66447 /* IMG_4302.jpg */,
+				D0DD929623580CF700D66447 /* ip7P LED_1.IMG_4207.cube */,
+				D0DD928923580C6900D66447 /* StikLightAlgoTests.swift */,
+				D0DD928B23580C6900D66447 /* Info.plist */,
+				D0DD929823580EF900D66447 /* test_lut.txt */,
+			);
+			path = StikLightAlgoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DD926D23580C6500D66447 /* StikLightAlgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DD928E23580C6900D66447 /* Build configuration list for PBXNativeTarget "StikLightAlgo" */;
+			buildPhases = (
+				D0DD926A23580C6500D66447 /* Sources */,
+				D0DD926B23580C6500D66447 /* Frameworks */,
+				D0DD926C23580C6500D66447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StikLightAlgo;
+			productName = StikLightAlgo;
+			productReference = D0DD926E23580C6500D66447 /* StikLightAlgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0DD928423580C6800D66447 /* StikLightAlgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DD929123580C6900D66447 /* Build configuration list for PBXNativeTarget "StikLightAlgoTests" */;
+			buildPhases = (
+				D0DD928123580C6800D66447 /* Sources */,
+				D0DD928223580C6800D66447 /* Frameworks */,
+				D0DD928323580C6800D66447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DD928723580C6800D66447 /* PBXTargetDependency */,
+			);
+			name = StikLightAlgoTests;
+			productName = StikLightAlgoTests;
+			productReference = D0DD928523580C6800D66447 /* StikLightAlgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DD926623580C6500D66447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yicheng Sun";
+				TargetAttributes = {
+					D0DD926D23580C6500D66447 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D0DD928423580C6800D66447 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D0DD926D23580C6500D66447;
+					};
+				};
+			};
+			buildConfigurationList = D0DD926923580C6500D66447 /* Build configuration list for PBXProject "StikLightAlgo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DD926523580C6500D66447;
+			productRefGroup = D0DD926F23580C6500D66447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DD926D23580C6500D66447 /* StikLightAlgo */,
+				D0DD928423580C6800D66447 /* StikLightAlgoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DD926C23580C6500D66447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD929F235816FC00D66447 /* IMG_4302.jpg in Resources */,
+				D0DD927F23580C6800D66447 /* LaunchScreen.storyboard in Resources */,
+				D0DD927C23580C6800D66447 /* Assets.xcassets in Resources */,
+				D0DD929923580EF900D66447 /* test_lut.txt in Resources */,
+				D0DD927723580C6500D66447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DD928323580C6800D66447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD92A0235816FC00D66447 /* IMG_4302.jpg in Resources */,
+				D0DD929A23580EF900D66447 /* test_lut.txt in Resources */,
+				D0DD929723580CF700D66447 /* ip7P LED_1.IMG_4207.cube in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DD926A23580C6500D66447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD929523580CB000D66447 /* ColorCube.swift in Sources */,
+				D0DD927423580C6500D66447 /* ViewController.swift in Sources */,
+				D0DD927223580C6500D66447 /* AppDelegate.swift in Sources */,
+				D0DD927A23580C6500D66447 /* StikLightAlgo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DD928123580C6800D66447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD928A23580C6900D66447 /* StikLightAlgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DD928723580C6800D66447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DD926D23580C6500D66447 /* StikLightAlgo */;
+			targetProxy = D0DD928623580C6800D66447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0DD927523580C6500D66447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DD927623580C6500D66447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0DD927D23580C6800D66447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DD927E23580C6800D66447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0DD928C23580C6900D66447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DD928D23580C6900D66447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DD928F23580C6900D66447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXSA77HGL;
+				INFOPLIST_FILE = StikLightAlgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UIUC.ysun73.StikLightAlgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DD929023580C6900D66447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXSA77HGL;
+				INFOPLIST_FILE = StikLightAlgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UIUC.ysun73.StikLightAlgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0DD929223580C6900D66447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StikLightAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UIUC.ysun73.StikLightAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StikLightAlgo.app/StikLightAlgo";
+			};
+			name = Debug;
+		};
+		D0DD929323580C6900D66447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StikLightAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UIUC.ysun73.StikLightAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StikLightAlgo.app/StikLightAlgo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DD926923580C6500D66447 /* Build configuration list for PBXProject "StikLightAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DD928C23580C6900D66447 /* Debug */,
+				D0DD928D23580C6900D66447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DD928E23580C6900D66447 /* Build configuration list for PBXNativeTarget "StikLightAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DD928F23580C6900D66447 /* Debug */,
+				D0DD929023580C6900D66447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DD929123580C6900D66447 /* Build configuration list for PBXNativeTarget "StikLightAlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DD929223580C6900D66447 /* Debug */,
+				D0DD929323580C6900D66447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0DD927823580C6500D66447 /* StikLightAlgo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0DD927923580C6500D66447 /* StikLightAlgo.xcdatamodel */,
+			);
+			currentVersion = D0DD927923580C6500D66447 /* StikLightAlgo.xcdatamodel */;
+			path = StikLightAlgo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0DD926623580C6500D66447 /* Project object */;
+}
